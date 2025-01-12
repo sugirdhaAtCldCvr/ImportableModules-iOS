@@ -11,7 +11,7 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		5A7221312D3210E300BB3391 /* Exceptions for "ImportableModules_iOS" folder in "ImportableModules_iOS" target */ = {
+		5A7221432D3238C200BB3391 /* Exceptions for "ImportableModules_iOS" folder in "ImportableModules_iOS" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -24,7 +24,7 @@
 		5A7221212D3210E100BB3391 /* ImportableModules_iOS */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				5A7221312D3210E300BB3391 /* Exceptions for "ImportableModules_iOS" folder in "ImportableModules_iOS" target */,
+				5A7221432D3238C200BB3391 /* Exceptions for "ImportableModules_iOS" folder in "ImportableModules_iOS" target */,
 			);
 			path = ImportableModules_iOS;
 			sourceTree = "<group>";
@@ -145,11 +145,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA7HV3R45W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImportableModules_iOS/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -172,11 +172,11 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = CA7HV3R45W;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = ImportableModules_iOS/Info.plist;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -244,7 +244,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -301,7 +302,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_FILE = Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
