@@ -9,9 +9,9 @@ Note: The HelperFunctions module doesn't have UI and hence cannot be used for de
 To run a demo for a particular module, in Xcode, navigate to `ImportableModules-iOS/ProjectFiles/AppDelegate` and change the value of the `mainVc` variable to match the name of the view controller class. 
 
 
-    For example, to demo ProgressBar implementation, add the following line to `AppDelegate`
+- For example, to demo ProgressBar implementation, add the following line to `AppDelegate`
         `let mainVc = ProgressBarViewController()`
-    To demo OTP implementation, add the following line to `AppDelegate`
+- To demo OTP implementation, add the following line to `AppDelegate`
         `let mainVc = OTPViewController()`
      
 This will set the demo module's corresponding VC as the main screen of the iOS app
